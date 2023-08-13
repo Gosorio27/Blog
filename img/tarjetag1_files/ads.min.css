@@ -1,0 +1,26 @@
+body.archive .adthrive-content,
+body.search .adthrive-content {
+   flex:0 0 100%;
+}
+
+body:not(.adthrive-device-phone) .adthrive-recipe {
+float:right;
+clear:right;
+margin-left:10px;
+}
+
+body.adthrive-device-phone .adthrive-content {
+margin-bottom:15px;
+}
+
+div[id^="cls-video"] {
+margin-bottom: 20px;
+}
+
+.adthrive-content, .adthrive-recipe {
+min-height: 350px !important;
+}
+
+.adthrive-content {
+margin-bottom: 20px!important;
+}
